@@ -4,8 +4,7 @@ Küçük bir 2D arena içinde oyuncu ve rakibin çeşitli aksiyonlar gerçekleş
 
 ## Oynanış (Web Build)
 
-Oyunun itch.io veya simmer.io bağlantısını buraya ekleyeceksin:
-https://...
+[(https://abdullahcelik.itch.io/arena-mini-battle)]
 
 ## Proje Reposu
 
@@ -47,7 +46,7 @@ Oyuncunun aksiyonları rakibi; rakibin aksiyonları oyuncuyu etkileyebilir nitel
 | Aksiyonların karşılıklı etkisi     |  ✔️   | Mermiler sadece rakibi etkiler; enemy hasar verir  |
 | Fizik dışı aksiyon                 |  ✔️   | Heal / Dash / Shoot farklı etkiler                 |
 | Ana menü + müzik & ses ayarı       |  ✔️   | Slider + butonlar hazır                            |
-| Web Build & bağlantı               |  ⬜   | (itch.io linki eklenecek)                          |
+
 
 ## Oynanış Kontrolleri
 
