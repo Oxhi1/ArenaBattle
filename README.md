@@ -66,6 +66,4 @@ Oyuncunun aksiyonları rakibi; rakibin aksiyonları oyuncuyu etkileyebilir nitel
 - Ana menüde ses ayarları slider ile kontrol edilir (Müzik ve Efekt).
 
 
-## Lisans
 
-Bu proje eğitim amaçlıdır. Gerekli ise lisans bilgisi burada belirtilebilir.
