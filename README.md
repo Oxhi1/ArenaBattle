@@ -18,15 +18,20 @@ Bu repo Unity projesinin tüm dosyalarını içerir.
 ### Oyuncu
 - Hareket eder
 - Mermi ateşler
-- Dash yapar
-- Kendini iyileştirir  
+- Alan etkili saldırı yapar.
+- Zehir saldırısı yapar(rakibi yavaşlatır/hasar verir)
+- Canı azalır/artar
+- Normal saldırı yapabilir
 
 
-### Rakip
-- Hasar alır
-- Stun olur
-- Roar animasyonu oynatır
-- Shield animasyonu oynatır  
+### Rakip (ai kontrolünde)
+- Hareket eder
+- Ağır vuruş yapabilir
+- Laser ateşleyebilir
+- Dash atabilir
+- Normal vuruş atabilir
+- Canı azalır/Artar
+- Oyuncuya göre hareket edebilir  
 
 
 Oyuncunun aksiyonları rakibi; rakibin aksiyonları oyuncuyu etkileyebilir niteliktedir.
@@ -41,8 +46,8 @@ Oyuncunun aksiyonları rakibi; rakibin aksiyonları oyuncuyu etkileyebilir nitel
 | Kural                              | Durum | Açıklama                                           |
 |------------------------------------|:-----:|----------------------------------------------------|
 | Oyuncu + Rakip karakter            |  ✔️   | Player ve Enemy prefabları mevcut                  |
-| Player aksiyon                     |  ✔️   | Hareket, Ateş, Dash, Heal                          |
-| Enemy  aksiyon                     |  ✔️   | Damage alma, Stun, Roar, Shield                    |
+| Player aksiyon                     |  ✔️   | Hareket, Ateş, shockwave, poison                   |
+| Enemy  aksiyon                     |  ✔️   | Hareket, heavy, laser, dash,punch                  |
 | Aksiyonların karşılıklı etkisi     |  ✔️   | Mermiler sadece rakibi etkiler; enemy hasar verir  |
 | Fizik dışı aksiyon                 |  ✔️   | Heal / Dash / Shoot farklı etkiler                 |
 | Ana menü + müzik & ses ayarı       |  ✔️   | Slider + butonlar hazır                            |
@@ -53,16 +58,17 @@ Oyuncunun aksiyonları rakibi; rakibin aksiyonları oyuncuyu etkileyebilir nitel
 | Eylem       | Tuş       |
 |-------------|-----------|
 | Hareket     | WASD      |
-| Ateş        | Sol Mouse |
-| Dash        | Space     |
-| Heal        | Q         |
-| Pause Menü  | ESC       |
+| Punch        | Sol Mouse |
+| Mermi saldırsı        | Sağ mouse |
+| Poison saldırısı        | Q |
+|Shockwave saldırısı | E|
+| Pause Menü  | ESC |
 
 ## Teknik Notlar
 
 - Unity ile geliştirilmiştir.
 - Player ve Enemy prefabları sahnede ayrıştırılmıştır.
-- Rakip davranışları AI içermez; yalnızca tetiklenebilir animasyon ve durumlar mevcuttur.
+- Rakip davranışları Q-Learning ile geliştirilmiştir.
 - Ana menüde ses ayarları slider ile kontrol edilir (Müzik ve Efekt).
 
 
