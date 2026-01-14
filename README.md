@@ -49,7 +49,6 @@ Oyuncunun aksiyonları rakibi; rakibin aksiyonları oyuncuyu etkileyebilir nitel
 | Player aksiyon                     |  ✔️   | Hareket, Ateş, shockwave, poison                   |
 | Enemy  aksiyon                     |  ✔️   | Hareket, heavy, laser, dash,punch                  |
 | Aksiyonların karşılıklı etkisi     |  ✔️   | Mermiler sadece rakibi etkiler; enemy hasar verir  |
-| Fizik dışı aksiyon                 |  ✔️   | Heal / Dash / Shoot farklı etkiler                 |
 | Ana menü + müzik & ses ayarı       |  ✔️   | Slider + butonlar hazır                            |
 
 
