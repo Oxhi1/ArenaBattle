@@ -57,10 +57,10 @@ Oyuncunun aksiyonları rakibi; rakibin aksiyonları oyuncuyu etkileyebilir nitel
 | Eylem       | Tuş       |
 |-------------|-----------|
 | Hareket     | WASD      |
-| Punch        | Sol Mouse |
-| Mermi saldırsı        | Sağ mouse |
-| Poison saldırısı        | Q |
-|Shockwave saldırısı | E|
+| Punch        | Sol Mouse ||Oyuncu basic saldırısı(yönlendirilebilir)|
+| Mermi saldırsı        | Sağ mouse | |Uzak mesafe saldırısı(yönlendirilebilir)|
+| Poison saldırısı        | Q ||orta mesafe saldırısı düşmana hasar verir ve yavaşlatır(direkt saldırı)|
+|Shockwave saldırısı | E||Oyuncunun tüm çevresine anlık olarak gerçekleşir(alan etkili)|
 | Pause Menü  | ESC |
 
 ## Teknik Notlar
